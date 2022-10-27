@@ -11,3 +11,6 @@ const details = require('./data/details.json');
 app.get('/',(req,res)=>{
     res.send('Running')
 });
+app.get('/learning-catagories', (req, res) => {
+    res.send(catagory);
+})
