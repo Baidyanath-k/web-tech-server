@@ -14,3 +14,8 @@ app.get('/',(req,res)=>{
 app.get('/learning-catagories', (req, res) => {
     res.send(catagory);
 })
+app.get('/learning-catagories/:id', (req, res) => {
+    const id=req.params.id;
+    const selectedcatagory=catagory.find(n=>n.id===id);
+    res.send(selectedcatagory);
+})
