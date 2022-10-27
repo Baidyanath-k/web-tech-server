@@ -1,0 +1,30 @@
+[
+  {
+    "id": "01",
+    "name": "React Developing"
+  },
+  {
+    "id": "02",
+    "name": "Java Developing"
+  },
+  {
+    "id": "03",
+    "name": "PHP Developing"
+  },
+  {
+    "id": "04",
+    "name": "C Programming"
+  },
+  {
+    "id": "05",
+    "name": "C++ Programming"
+  },
+  {
+    "id": "06",
+    "name": "Python Programming"
+  },
+  {
+    "id": "07",
+    "name": "Front-End Developer"
+  }
+]
